@@ -31,60 +31,37 @@ export default function Home() {
 
   const allProjects = [
     {
-      title: 'YouTube Wawancara - Pancasila',
-      description: 'Video wawancara narasumber terkait isu kampus dan radikalisme digital.',
-      tags: ['YouTube', 'Interview', 'Pancasila'],
-      link: 'https://youtu.be/C29ctHWANA8'
+      title: 'Safe Shipping Services Website',
+      description: 'Forwarder Website for safe shipping services.',
+      image: '/forwarder-pic.png',
+      tags: ['Website', 'Shipping', 'Forwarding'],
+      link: 'https://forwarder-projects.vercel.app'
     },
     {
-      title: 'YouTube Video Grafis - Pancasila',
-      description: 'Visualisasi grafis untuk rangkuman hasil riset tentang stereotipe agama.',
-      tags: ['YouTube', 'Motion Graphic', 'Research'],
-      link: 'https://youtu.be/HhcY3ht6SIY'
+      title: 'Cyber Attack and Defense Simulation',
+      description: 'Simulasi serang Cyber menggunakan javaFx dan memahami konsep algoritma BFS dan DFS.',
+      image: '/cyber-pict.png',
+      tags: ['Cybersecurity', 'Java', 'Algorithms'],
+      link: 'https://github.com/rizqhnif/cyber-attack-defense-simulator'
     },
     {
-      title: 'Pancasila - Digital Radicalism Analysis',
-      description: 'Analyzing digital radicalism and religious stereotypes on TikTok using Pancasila values.',
-      image: '/vidiografis.png',
-      tags: ['Research', 'Ethics', 'Digital Literacy'],
-      link: 'https://docs.google.com/document/d/1FnoLyZSRQFb8ZD8fXEwf2-agueOWo-GT2XacSbtQGZk/edit?usp=sharing'
+      title: 'Google Cybersecurity Project - Coursera',
+      description: 'Project pembelajaran dari Coursera Google Cybersecurity Professional Certificate.',
+      image: '/gugel-cyber-pict.png',
+      tags: ['Google', 'Cybersecurity', 'Learning Journeys'],
+      link: 'https://github.com/rizqhnif/google-cybersecurity-portfolio'
     },
     {
-      title: 'Spotify Clone - Linked List',
-      description: 'A Spotify-inspired web app implementing Linked List concepts for playlist management.',
-      image: '/pradita-university.png',
-      tags: ['Data Structures', 'Next.js', 'Linked List'],
-      link: 'https://struktur-data-eight.vercel.app'
+      title: 'Podcast Video',
+      description: 'Proyek podcast edukatif yang mengangkat isu stereotip Islam di TikTok untuk meningkatkan kesadaran akan pentingnya berpikir kritis terhadap konten media sosial.',
+      tags: ['YouTube', 'CapCut', 'Education'],
+      link: 'https://youtu.be/TswgKie_-_4?si=sfCzIXBkI-041WsA'
     },
     {
-      title: 'E-commerce Platform',
-      description: 'Full-stack e-commerce project using Next.js and modern technologies.',
-      tags: ['Web Development', 'Next.js', 'Full-stack'],
-    },
-    {
-      title: 'Real-time Chat App',
-      description: 'A real-time communication platform using WebSocket implementation.',
-      tags: ['Web Development', 'WebSocket', 'Real-time'],
-    },
-    {
-      title: 'Cybersecurity - CTF Write-ups',
-      description: 'Detailed write-ups of various Capture The Flag challenges.',
-      tags: ['Cybersecurity', 'CTF', 'Linux'],
-    },
-    {
-      title: 'Vulnerability Analysis',
-      description: 'Case studies on recent security vulnerabilities and their mitigations.',
-      tags: ['Cybersecurity', 'Analysis'],
-    },
-    {
-      title: 'Fitness Tracker',
-      description: 'A mobile application built with React Native for tracking workouts and health.',
-      tags: ['Mobile Dev', 'React Native'],
-    },
-    {
-      title: 'Recipe App',
-      description: 'A Flutter-based application for sharing and discovering food recipes.',
-      tags: ['Mobile Dev', 'Flutter'],
+      title: 'Video Inforgafis Animasi',
+      description: 'Proyek edukatif berupa video animasi yang mengangkat isu stereotip Islam di TikTok.',
+      tags: ['Animation', 'CapCut', 'Education'],
+      link : 'https://youtu.be/HhcY3ht6SIY?si=KibaCqUZlJh2fpWJ'
     }
   ];
 
@@ -133,7 +110,7 @@ export default function Home() {
       role: "BCA Digital",
       thumbnail: "/bluAmbassador.png",
       images: ["/bluAmbassador.png", "/bluAmbassador-2.png"], // Tambahkan banyak path gambar di sini
-      description: "Add your detailed description for the fourth experience here."
+      description: "bluAmbassador merupakan program brand ambassador mahasiswa dari blu by BCA Digital yang berfokus pada pengembangan keterampilan komunikasi, personal branding, dan content creation melalui berbagai aktivitas kampanye digital serta promosi layanan perbankan digital kepada mahasiswa."
     }
   ];
 
@@ -407,9 +384,9 @@ export default function Home() {
       <section className="experience-section" id="contact">
         <h2 className="experience-title">Get in Touch</h2>
         <div className="text-center">
-          <p className="text-xl text-gray-400 mb-8">Have a project in mind or just want to chat?</p>
-          <a href="mailto:rizkihanif01@gmail.com" className="px-8 py-4 bg-white text-black rounded-full font-bold hover:bg-gray-200 transition-colors">
-            Hello
+          <p className="text-xl text-gray-400 mb-8">Yuk mutualan LinkedIn!</p>
+          <a href="https://www.linkedin.com/in/muhammad-rizqi-hanif-8524a7346/" className="px-8 py-4 bg-white text-black rounded-full font-bold hover:bg-gray-200 transition-colors">
+            Connect on LinkedIn
           </a>
         </div>
       </section>
